@@ -1,18 +1,29 @@
 body{
     background: url(./Images/descarga\ \(1\).gif);
-    background-size: 2100px 930px;
+    background-size: 2560px 1225px;
     background-repeat: no-repeat;
 }   
 
-#container{
-    color: aliceblue;
+@font-face {
+    font-family: Harry;
+    src: url(./Font_Harry/HARRYP__.TTF);
+}
+
+h1{
+    font-family: Harry;
+    font-size: 145px;
+    color:#9BB0C1;
 }
 
 .text-aling-center{
-    height: 100px;
-    width: 300px;
-
-    line-height: 30px; /*Espacio entre los elementos de cada renglon*/
+    line-height: 45px; /*Espacio entre los elementos de cada renglon*/
     text-align: center;
-    vertical-align: middle;
+    vertical-align: baseline;
+}
+
+#button{
+    margin-right: 20px;
+}
+
+#divall{
 }
