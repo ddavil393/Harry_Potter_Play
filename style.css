@@ -17,17 +17,63 @@ html{
 h1{
     font-family: Harry;
     font-size: 145px;
-    color:#9BB0C1;
+    color: #4a211b;
 }
 
 .text-aling-center{
-    line-height: 45px; /*Espacio entre los elementos de cada renglon*/
+    line-height: 80px; /*Espacio entre los elementos de cada renglon*/
     text-align: center;
-    vertical-align: baseline;
+    /*vertical-align: baseline;*/
 }
 
-#button{
+.button{
     margin-right: 20px;
+    font-family: Harry;
+    font-size: 20px;
+    color: #a6332e;
+    border-radius: 6px;
+}
+
+#start{
+    padding: 10%;
+    padding-bottom: 0%;
+    border-color: #a6332e;
+    font-size: 100px;
+    background-color: white;
+    border: 2px;
+}
+#start:hover{
+    background-color: #4a211b;
+    color: white;
+}
+
+#inst{
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 8%;
+    padding-bottom: 0%;
+    font-size: 60px;
+    border-color: #a6332e;
+    background-color: white;
+    border: 2px;
+}
+#inst:hover{
+    background-color: #4a211b;
+    color: white;
+}
+#out{
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 0%;
+    font-size: 60px;
+    border-color: #a6332e;
+    background-color: white;
+    border: 2px;
+}
+#out:hover{
+    background-color: #4a211b;
+    color: white;
 }
 
 #divall{
@@ -41,4 +87,8 @@ h1{
 .text-aling-center2{
     text-align: right;
     vertical-align: baseline;
+}
+
+#letra{
+    text-shadow: 15px 10px 25px #a6332e;
 }
