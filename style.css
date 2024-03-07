@@ -1,8 +1,13 @@
 body{
+    height: 100vh;
     background: url(./Images/descarga\ \(1\).gif);
-    background-size: 2560px 1225px;
+    background-size: 2045px 1080px;/*2560px 1225px;*/
     background-repeat: no-repeat;
 }   
+
+html{
+    height: 100vh;
+}
 
 @font-face {
     font-family: Harry;
@@ -26,4 +31,9 @@ h1{
 }
 
 #divall{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
