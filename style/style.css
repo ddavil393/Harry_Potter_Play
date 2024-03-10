@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background: url(../Images/descarga\ \(1\).gif);
+    /* background: url(../Images/descarga\ \(1\).gif); */
     background-size: 2560px 1225px;/*2560px 1225px;*//*2050px 1080px*/
     background-repeat: no-repeat;
 }   
