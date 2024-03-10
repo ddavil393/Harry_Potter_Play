@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Harry;
+    src: url(../Font_Harry/HARRYP__.TTF);
+}
+
+body{
+   background-color: #4a211b;
+}
+
+h1{
+    font-family: Harry;
+    font-size: 100px;
+    color: rgb(80, 84, 83);
+}
+
+nav{
+    background-color: #604219;
+    /* background-image: url(../Images/Carga_de_Pantalla/Diseño\ sin\ título.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size: cover;  */
+}
+#letra{
+    text-shadow: 15px 10px 25px #ffffff;
+}
+.loll{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../Images/Carga_de_Pantalla/IMAGES_USER...png);
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size: cover; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+
+}
+.posicion {
+    background-position: 0px 50px;
+    
+}
