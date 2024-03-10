@@ -69,7 +69,6 @@ nav{
     border-color: #a6332e;
     font-size: 50px;
     background-color: white;
-    border: 1px;
 }
 
 #send:hover{
@@ -84,4 +83,8 @@ nav{
     background-color: #ffffff;
     border-radius: 20px;
     padding: 10px;
+}
+#logo{
+    width: 17vh;
+    height: 17vh;
 }
