@@ -2,9 +2,13 @@
     font-family: Harry;
     src: url(../Font_Harry/HARRYP__.TTF);
 }
+html{
+    height: 100vh;
+}
 
 body{
-   background-color: #4a211b;
+    height: 100vh;
+    background-color: #4a211b;
 }
 
 h1{
@@ -20,20 +24,64 @@ nav{
     background-attachment: fixed ;
     background-size: cover;  */
 }
+
 #letra{
     text-shadow: 15px 10px 25px #ffffff;
 }
+
 .loll{
-    margin: 0px;
-    padding: 0px;
+    margin: 0vh;
+    padding: 0vh;
+    height: 100vh;
     background-image: url(../Images/Carga_de_Pantalla/IMAGES_USER...png);
     background-repeat: no-repeat;
     background-attachment: fixed ;
     background-size: cover; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
-
+    text-align: center;
+    line-height: 80px
 }
+
 .posicion {
-    background-position: 0px 50px;
-    
+    background-position: 0px 50px;   
+}
+
+.button{
+    margin-right: 20px;
+    font-family: Harry;
+    font-size: 20px;
+    color: #a6332e;
+    border-radius: 6px;
+}
+#Name{
+    height: 60px;
+    width: 275px;
+    font-family: Harry;
+    font-size: 50px;
+    color: chocolate;
+    text-align: center;
+    border-radius:20px;
+    border-color: #604219;
+    border: 100px;
+}
+
+#send{
+    border-color: #a6332e;
+    font-size: 50px;
+    background-color: white;
+    border: 1px;
+}
+
+#send:hover{
+    background-color: #4a211b;
+    color: white;
+}
+
+#label{
+    font-family: Harry;
+    font-size: 70px;
+    color: #a6332e;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
 }
