@@ -121,9 +121,11 @@ function lvlstart(){
  	}
 }
 
+
+
 for(i=0;i<3;i++){
   	var animal= animals[i];
-	animal.style.backgroundImage= "url(images/animals/"+(usedindx[i])+".png)";
+	animal.style.backgroundImage= "url(../Images/Canva_png "+(usedindx[i])+".png)";
 	animal.setAttribute("id",usedindx[i]);
 	animal.classList.remove("hidden");
 	var bioma= biomas[usedpos[i]];
