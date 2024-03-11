@@ -13,26 +13,24 @@
 <body onload="carga()">
 
     <nav>
-        <h1 id="letra">
+        <h1 id="letra" class="col-12">
             <img id="logo" class="rounded-circle p-4" src="../Images/Casas/Logo.jpeg" alt="">
             El Mundo de Harry Potter
+            <a href="../HTML/index.html" type="button" class="button col-1 out" id="out">Salir</a>
         </h1>
     </nav>
 
-    <div class="col-10 center gamecontainer">
-        <div style="float: left;">
-            <p style="color:white; font-size: 30px;" > Tiempo
-                    <span id="minutos">0</span>:<span id="segundos">0</span>
-                </p> 
-            <p style="color:white; font-size: 30px;" > Puntos
-                    <b><span id="puntos">0</span></b>
-            </p>
-            </div>
-            <div>
-                <a href="index.html" style="float: right; margin-top: 20px; margin-right: 5%;" id="volverbtn">Salir</a>
-                <button class='btn btn-outline-primary activar' onclick='musica()'></button>
-                <button class='btn btn-outline-primary eliminar' onclick='musicano()'></button> 
-            </div>
+    <div class="gamecontainer">
+        <div id="time" class="col-4">
+            <p id="time2"> Tiempo -
+                <span id="minutos">00</span>:<span id="segundos">00</span>
+                    Score -
+                    <span id="score">00</span>
+            </p> 
+            <!--<p id="score"> Score - 
+                <span id="puntos">00</span>
+            </p>-->
+        </div>
     
         <h2 id="siglvl" class="center col-10 hidden">Exelente trabajo</h2>
         
@@ -53,15 +51,15 @@
         </div>
         </div>
       <div class="row" id="letrero">
-      <div class="source col-12">
-        <div class="row">
-            <div class="animal col-4" draggable="true"></div>
-            <div class="animal col-4" draggable="true"></div>
-            <div class="animal col-4" draggable="true"></div>
+        <div class="source col-12">
+            <div class="row">
+                <div class="animal col-4" draggable="true"></div>
+                <div class="animal col-4" draggable="true"></div>
+                <div class="animal col-4" draggable="true"></div>
+            </div>
         </div>
       </div>
-      </div>
-      </div>
+    </div>
 
     <script src="../JS/Canvas.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

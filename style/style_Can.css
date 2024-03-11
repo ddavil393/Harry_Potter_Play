@@ -2,3 +2,48 @@ body{
     height: 100vh;
     background-color: burlywood;
 }
+
+.gamecontainer{
+    height: 82vh;
+    width: 208vh;
+    background-image: url("../Images/Carga_de_Pantalla/Comedor.gif");
+    background-size: 100% 100%;
+    border-radius: 25px;
+    margin-left: 12px;
+}
+
+#time{
+    margin: 4px;
+    padding: 10px;
+    filter: blur(1px);
+}
+
+#out{
+    border-color: #a6332e;
+    font-size: 45px;
+    background-color: white;
+    border: 2px;
+    text-align: center;
+}
+
+#out:hover{
+    background-color: #4a211b;
+    color: white;
+}
+
+.out{
+    text-align: right;
+}
+
+#time2{
+    color: white;
+    font-size: 65px;
+    font-family: Harry;
+    margin-right: 20px;
+    padding-right: 15px;
+}
+#score{
+    color: white;
+    font-size: 65px;
+    font-family: Harry;
+}
