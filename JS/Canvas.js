@@ -35,12 +35,12 @@ function init(){
  addlisteners();
 }
 
-/*var mySound;
+var mySound;
 var myMusic;
 
 function musica(){
-    mySound = new sound("sounds/musica.mp3");
-    myMusic = new sound("sounds/musica.mp3");
+    mySound = new sound("../sounds/Harry Potter Ambient Music Hogwarts Relaxing Studying Sleeping.mp3");
+    myMusic = new sound("../sounds/Harry Potter Ambient Music Hogwarts Relaxing Studying Sleeping.mp3");
     myMusic.play();
 }
 
@@ -61,7 +61,7 @@ function sound(src) {
   this.stop = function(){
       this.sound.pause();
   }    
-}*/
+}
 
 function addlisteners(){
   var animals = document.getElementsByClassName('animal');
@@ -163,7 +163,7 @@ function dropthebase(e){
 	
 	if(e.target.id==imgalt){
 		arrastrando.classList.add("hidden");
-		var audio = new Audio('sounds/'+e.target.id+'.ogg');
+		var audio = new Audio('../sounds/'+e.target.id+'.ogg');
 		var nom = document.getElementById("n"+e.target.id);
 		var nomtext = document.getElementById("nt"+e.target.id);
 		nomtext.innerHTML=getNombre(imgalt);
@@ -172,7 +172,7 @@ function dropthebase(e){
     	puntos+=50;
     	audio.play(audio);
     	p.innerHTML = puntos;
-    	this.style.backgroundImage="url(../Images/Wallpaper_Good/"+e.target.id+".png)";
+    	this.style.backgroundImage="url(../Images/Wallpaper_Good_/"+e.target.id+".png)";
   	if(aciertos==3){
     	usedpos=[];
     	pantalla=2;
@@ -228,7 +228,7 @@ function dragend(e){
 function getNombre(id){
   switch(id){
     case "0" :
-      return "Vaca";
+      return "Hrry";
     break
       case "1" :
       return "Lobo";
@@ -258,5 +258,7 @@ function getNombre(id){
 
   }
 } 
+
+
 
 window.addEventListener("load",init,false);
