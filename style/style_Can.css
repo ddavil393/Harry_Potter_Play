@@ -10,7 +10,6 @@ body{
 
 
      .bioma{
-  
       padding: 10px;
       height:200px;
       background-repeat: no-repeat;
@@ -44,10 +43,8 @@ body{
     background-position: center;
   }
   .gamecontainer{
-    /* height: 650px;
-    background-image: url("images/bk.png");
-    background-size: 100% 100%;
-    border-radius: 25px; */
+    display: flex;
+    justify-content: space-between;
   }
   
   .row::after {
@@ -192,6 +189,8 @@ nav{
     background-color: white;
     border: 2px;
     text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 #out:hover{
     background-color: #4a211b;
@@ -205,6 +204,9 @@ nav{
     padding: 10px;
     filter: blur(1px);
     background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-radius: 20px;
 }
 
@@ -222,4 +224,5 @@ nav{
     font-size: 65px;
     font-family: Harry;
     color: rgb(80, 84, 83);
+    margin: 0 20px;
 }
