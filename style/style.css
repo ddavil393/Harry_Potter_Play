@@ -27,7 +27,7 @@ h1{
 }
 
 .button{
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     font-family: Harry;
     font-size: 20px;
     color: #a6332e;
@@ -49,28 +49,44 @@ h1{
 }
 
 #inst{
-    padding: 5%;
+    /*padding: 5%;
     padding-left: 10%;
     padding-right: 8%;
-    padding-bottom: 0%;
+    padding-bottom: 0%;*/
     font-size: 60px;
     border-color: #a6332e;
     background-color: white;
-    border: 2px;
+    /*border: 2px;*/
 }
 #inst:hover{
     background-color: #4a211b;
     color: white;
 }
+
+#audio{
+    height: 10vh;
+    width: 10vh;
+    margin-top: 1%;
+    font-size: 50px;
+    background-color: #4a211b;
+    color: white;
+}
+
+#audio:hover{
+    border-color: #a6332e;
+    background-color: white;
+    color: #a6332e;
+}
+
 #credits{
-    padding-top: 3%;
+    /*padding-top: 3%;
     padding-right: 10%;
     padding-left: 10%;
-    padding-bottom: 0%;
+    padding-bottom: 0%;*/
     font-size: 60px;
     border-color: #a6332e;
     background-color: white;
-    border: 2px;
+    /*border: 2px;*/
 }
 #credits:hover{
     background-color: #4a211b;
@@ -96,6 +112,7 @@ h1{
     padding-bottom: 8vh;
 }
 #logo{
+    padding-top: 1%;
     height: 10vh;
     width: 10vh;
 }

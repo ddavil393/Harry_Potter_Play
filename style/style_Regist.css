@@ -2,6 +2,7 @@
     font-family: Harry;
     src: url(../Font_Harry/HARRYP__.TTF);
 }
+
 @keyframes background {
 	0% {
 		background-position: center bottom;
@@ -13,6 +14,7 @@
 		background-size: 150%;
 	}
 }
+
 @keyframes button {
 	0% {
 		transform: scale(0.5);
@@ -39,9 +41,7 @@ h1{
 }
 
 nav{
-
     background: linear-gradient(135deg,  rgb(243,226,199) 0%,rgb(193,158,103) 15%,rgb(96,66,25) 36%,rgb(233,212,179) 100%); 
-
 }
 
 #letra{
