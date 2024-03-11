@@ -1,48 +1,14 @@
-nav{
-
-    background: linear-gradient(135deg,  rgb(243,226,199) 0%,rgb(193,158,103) 15%,rgb(96,66,25) 36%,rgb(233,212,179) 100%); 
-
+.nombre{
+    text-align: center;
+    color: rgba(117, 12, 12, 0);
+}
+.nombre_visible{
+  color: rgb(29, 82, 7);
 }
 
-.bioma{
-    padding: 10px;
-    height:200px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 25px;
-  }
-    .nombre{
-      text-align: center;
-      color: rgba(117, 12, 12, 0);
-
-    }
-    .nombre_visible{
-      color: rgb(29, 82, 7);
-    }
-
-    .animal{
-    height:150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-
-  }
-
-  .over{
-    border: solid #A9FF9E 3px;
-  }
-* {
-  box-sizing: border-box;
-}
-.img{
-  background-position: center;
-}
-.gamecontainer{
-    height: 100vh;
-    background-image: url("../Images/Carga_de_Pantalla/Comedor.gif");
-    background-size: 100% 100%;
-    border-radius: 25px;
-    margin-left: 12px;
+#out:hover{
+    background-color: #4a211b;
+    color: white;
 }
 #out{
     border-color: #a6332e;
@@ -51,25 +17,22 @@ nav{
     border: 2px;
     text-align: center;
 }
-#out:hover{
-    background-color: #4a211b;
-    color: white;
-}
 .out{
     text-align: right;
 }
-
-.hidden{
-    display: none;
+.gamecontainer{
+    height: 100vh;
+    background-image: url("../Images/Carga_de_Pantalla/Comedor.gif");
+    background-size: 100% 100%;
+    border-radius: 25px;
+    margin-left: 12px;
 }
-
 #time{
     padding-left: 2vh;
     filter: blur(1px);
     background-color: antiquewhite;
     border-radius: 20px;
 }
-
 #time2{
     color: white;
     font-size: 65px;
@@ -91,24 +54,48 @@ nav{
     font-family: Harry;
     text-shadow: 15px 10px 25px #ffffff;
 }
+.hidden{
+    display: none;
+}
+
+.animal{
+    height:150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.over{
+    border: solid #A9FF9E 3px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img{
+  background-position: center;
+}
+
+.hidden{
+    display: none;
+}
 
 .bioma{
-    margin: 10px;
-    height:250px;
+    margin: 15px;
+    height:240px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 25px;
 }
+
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
 
-.hidden{
-    display: none;
-}
 .nombre{
     text-align: center;
     color: rgba(117, 12, 12, 0);
-  }
+}
