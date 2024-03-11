@@ -10,6 +10,15 @@
     <title>User</title>
 </head>
 <body>
+    <script type="text/javascript">
+		function initjuego() {
+			var textfield = document.getElementById('Name').value;
+			localStorage.setItem("Name",textfield);
+			localStorage.setItem("puntos",0);
+			localStorage.setItem("tiempo",0);
+			setTimeout( function() { window.location.href = "Canvas.html"; }, 1000 );
+		}
+	</script>
 
     <nav>
         <h1 id="letra">
@@ -27,34 +36,13 @@
         </div>
 
         <div class="col-12 pl-4">
-            <button class="button" id="send" onclick="checkUser()">Enviar</button>
+            <button class="button" id="send" onclick="initjuego()">Enviar</button>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
-    <script>
-        function checkUser() {
-            var username = document.getElementById("Name").value;
-            if (username) {
-                // Comprobamos si el usuario ya está registrado
-                var registeredUser = localStorage.getItem("username");
-                if (registeredUser) {
-                    // Si el usuario está registrado, redirigirlo al juego
-                    window.location.href = "User_Regist.html";
-                } else {
-                    // Si el usuario no está registrado, redirigirlo a la página de registro
-                    window.location.href = "Canvas.html";
-                }
-            } else {
-                alert("Por favor, ingrese su nombre de usuario.");
-            }
-        }
-    </script>
 
 
 </body>
 </html>
-```
-
-

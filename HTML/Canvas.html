@@ -20,6 +20,8 @@
         </h1>
     </nav>
 
+    <div id="usernameDisplay"></div>
+    
     <div class="gamecontainer">
         <div id="time" class="">
             <p id="time2"> Tiempo -
@@ -60,6 +62,58 @@
         </div>
       </div>
     </div>
+
+    <script type="text/javascript">
+      // Verificar si el nombre de usuario está almacenado en localStorage
+      var username = localStorage.getItem("Name");
+      if (username) {
+          // Mostrar el nombre de usuario en un elemento HTML
+          document.getElementById("usernameDisplay").innerText = "Hola, " + username + "!";
+      } else {
+          // Si no se encuentra el nombre de usuario en localStorage, mostrar un mensaje alternativo
+          document.getElementById("usernameDisplay").innerText = "No se ha encontrado un nombre de usuario.";
+      }
+  </script>
+
+    <script type="text/javascript">
+    
+      //setInterval
+      var cronometro;
+    
+      function detenerse()
+      {	
+        clearInterval(cronometro);
+      }
+    
+      function carga()
+      {
+        contador_s =0;
+        contador_m =0;
+        s = document.getElementById("segundos");
+        m = document.getElementById("minutos");
+    
+        cronometro = setInterval(
+          function(){
+            if(contador_s==60)
+            {
+              contador_s=0;
+              contador_m++;
+              m.innerHTML = contador_m;
+    
+              if(contador_m==60)
+              {
+                contador_m=0;
+              }
+            }
+    
+            s.innerHTML = contador_s;
+            contador_s++;
+    
+          }
+          ,1000);
+      }
+    
+      </script>
 
     <script src="../JS/Canvas.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
