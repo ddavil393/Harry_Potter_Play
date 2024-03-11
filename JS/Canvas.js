@@ -121,13 +121,15 @@ function lvlstart(){
  	}
 }
 
+
+
 for(i=0;i<3;i++){
   	var animal= animals[i];
-	animal.style.backgroundImage= "url(images/animals/"+(usedindx[i])+".png)";
+	animal.style.backgroundImage= "url(../Images/Canva_png"+(usedindx[i])+".png)";
 	animal.setAttribute("id",usedindx[i]);
 	animal.classList.remove("hidden");
 	var bioma= biomas[usedpos[i]];
-	bioma.style.backgroundImage= "url(images/biomes/"+(usedindx[i])+".png)";
+	bioma.style.backgroundImage= "url(../Images/Wallpaper"+(usedindx[i])+".png)";
 	bioma.setAttribute("id",usedindx[i]);
 	var nombre= nombres[usedpos[i]];
 	nombre.setAttribute("id","n"+usedindx[i]);
@@ -170,7 +172,7 @@ function dropthebase(e){
     	puntos+=50;
     	audio.play(audio);
     	p.innerHTML = puntos;
-    	this.style.backgroundImage="url(images/good/"+e.target.id+".png)";
+    	this.style.backgroundImage="url(../Images/Wallpaper_Good"+e.target.id+".png)";
   	if(aciertos==3){
     	usedpos=[];
     	pantalla=2;
