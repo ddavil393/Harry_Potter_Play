@@ -4,27 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style_Regist.css">
+    <link rel="icon" href="../Images/Casas/Logo.jpeg" type="image/x-icon">
     <title>Usuario Registrado</title>
 </head>
 <body>
     <nav>
-        <h1>
-            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="#6196A6" class="bi bi-0-circle mx-4 my-4" viewBox="0 0 16 16">
-                <path d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99M8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895"/>
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8"/>
-              </svg>
+        <h1 id="letra">
+            <img id="logo" class="rounded-circle p-4" src="../Images/Casas/Logo.jpeg" alt="">
               El Mundo de Harry Potter
         </h1>
     </nav>
 
+    <div class="loll ">
     <h1>Nombre del Usuario</h1>
-    <div>
-        <h2>Mago o bruja</h2>
-        <h2>Logo de la casa</h2>
-        <h2>Su mejor tiempo es: </h2>
-        <h2>Contador: </h2>
-        <button> Volver a Jugar</button>
+    <div class="col-12 pb-4">
+        <input type="text" class="form-label" name="Name" id="Name">
     </div>
+    
+    <div class="loll_02">
+
+        <label id="label">Mago o bruja</label>
+        
+        <br>
+        <img src="../Images/Casas/Mago.png" alt="">
+        <img src="../Images/Casas/Bruja.png" alt="">
+        <br><br>
+        <h2>¿Cual es tu casa?</h2>
+        <img src="../Images/Casas/GRIFINDOR.png" alt="">
+        <img src="../Images/Casas/HUPPLE.png" alt="">
+        <img src="../Images/Casas/RAVENCLAW.png" alt="">
+        <img src="../Images/Casas/SLYTHERIN.png" alt="">
+        <br><br>
+        <button class="button">Empezar a jugar </button>
+    </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

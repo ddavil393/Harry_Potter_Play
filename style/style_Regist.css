@@ -23,11 +23,6 @@
 	}
 }
 
-@keyframes spinner-c7wet2 {
-    100% {
-       transform: rotate(1turn);
-    }
- }
 html{
     height: 100vh;
 }
@@ -56,8 +51,7 @@ nav{
 .loll{
     margin: 0vh;
     padding: 0vh;
-    height: 100vh;
-    background-image: url(../Images/Carga_de_Pantalla/IMAGES_USER...png);
+    background-image: url(../Images/Casas/FONDO_REGIST.png);
     animation: background  2s ease 0s 1 normal forwards;
     background-repeat: no-repeat;
     background-attachment: fixed ;
@@ -66,13 +60,21 @@ nav{
     text-align: center;
     line-height: 80px
 }
+.loll_02{
+    margin: 0px;
+    padding: 0px;
+    size: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+    border-radius: 10px;
+}
 
 .posicion {
     background-position: 0px 50px;   
 }
 
 .button{
-    margin-right: 20px;
+    /* margin-right: 20px; */
     font-family: Harry;
     font-size: 20px;
     color: #a6332e;
@@ -105,8 +107,7 @@ nav{
 #label{
     font-family: Harry;
     font-size: 70px;
-    color: #a6332e;
-    background-color: #ffffff;
+    color: #8f8d8d;
     border-radius: 20px;
     padding: 10px;
     animation: button 2s ease 0s 1 normal forwards;
@@ -115,4 +116,10 @@ nav{
     width: 17vh;
     height: 17vh;
 
+}
+img{
+    width: 10%;
+    height: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+    border-radius: 10px;
 }
