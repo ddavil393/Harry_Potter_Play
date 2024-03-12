@@ -189,14 +189,14 @@ function dropthebase(e){
 
   	if(aciertos==6){
     setTimeout( function() { window.location.href = "congrat.html"; }, 6000 );
-    var audio = new Audio('sounds/complete.mp3');       
+    var audio = new Audio('../sounds/complete.mp3');       
     audio.play();
     localStorage.setItem("puntos",puntos);
     localStorage.setItem("tiempo",contador_s);
     cronometro.detenerse();
   	}
 	}else{
-  		var audio = new Audio('sounds/wrong.mp3');
+  		var audio = new Audio('../sounds/wrong.mp3');
   		audio.play();
   		puntos-=20;
   		p.innerHTML = puntos;
