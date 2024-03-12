@@ -229,31 +229,31 @@ function dragend(e){
 function getNombre(id){
   switch(id){
     case "0" :
-      return "Hrry";
+      return "Harry";
     break
       case "1" :
-      return "Lobo";
+      return "Ron";
     break
       case "2" :
-      return "Cabra";
+      return "Trio de oro";
     break
       case "3" :
-      return "Llama";
+      return "Hermaione";
     break
       case "4" :
-      return "Panda";
+      return "Dobby";
     break
       case "5" :
-      return "Perico";
+      return "Voldemort";
     break
       case "6" :
-      return "Cerdito";
+      return "Luna";
     break
       case "7" :
-      return "Conejo";
+      return "Sirius Black";
     break
       case "8" :
-      return "Araña";
+      return "Hadrig";
     break
     default: "";
 
