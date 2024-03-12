@@ -238,7 +238,7 @@ function getNombre(id){
       return "Trio de oro";
     break
       case "3" :
-      return "Hermaione";
+      return "Hermione";
     break
       case "4" :
       return "Dobby";
