@@ -6,52 +6,45 @@ body{
     height: 100vh;
     background-color: #4a211b;
 }
-
-
-
-     .bioma{
-      padding: 10px;
-      height:200px;
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      border-radius: 25px;
-    }
-      .nombre{
-        text-align: center;
-        color: rgba(117, 12, 12, 0);
+.bioma{
+  padding: 10px;
+  height:200px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 25px;
+}
+.nombre{
+    text-align: center;
+    color: rgba(117, 12, 12, 0);  
+}
+.nombre_visible{
+    color: rgb(29, 82, 7);
+}
   
-      }
-      .nombre_visible{
-        color: rgb(29, 82, 7);
-      }
-  
-      .animal{
-      height:150px;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-  
-    }
-  
-    .over{
-      border: solid #A9FF9E 3px;
-    }
-  * {
+.animal{
+  height:150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}  
+.over{
+  border: solid #A9FF9E 3px;
+}
+* {
     box-sizing: border-box;
-  }
-  .img{
+}
+.img{
     background-position: center;
-  }
-  .gamecontainer{
+}
+.gamecontainer{
     display: flex;
     justify-content: space-between;
-  }
-  
-  .row::after {
+}
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
   
     [class*="col-"] {
       float: left;
@@ -69,13 +62,9 @@ body{
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   
-
-
-  
    .hidden{
     display:  none;
    }
-  
   
    #nombrelab{
     font-size: 2em;
