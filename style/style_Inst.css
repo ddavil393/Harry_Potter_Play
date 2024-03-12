@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    background: url(../Images/Wallpaper/hpbkgnd.jpeg);
+    background-size: cover;/*2560px 1225px;*//*2050px 1080px*/
+    background-position: center;
+    overflow: hidden;
+    text-align: center;
+}   
+
+#text{
+    text-align: justify;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+html{
+    height: 100vh;
+}
+
+@font-face {
+    font-family: Harry;
+    src: url(../Font_Harry/HARRYP__.TTF);
+}
+
+h1{
+    font-family: Harry;
+    font-size: 80px;
+    color: #4a211b;
+}
+
+.text-aling-center{
+    line-height: 80px; /*Espacio entre los elementos de cada renglon*/
+    text-align: center;
+    /*vertical-align: baseline;*/
+}
+
+.button{
+    /*margin-right: 20px;*/
+    font-family: Harry;
+    font-size: 50px;
+    color: #a6332e;
+    border-radius: 6px;
+}

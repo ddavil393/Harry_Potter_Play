@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Harry;
+    src: url(../Font_Harry/HARRYP__.TTF);
+}
+
+h1{
+    font-family: Harry;
+    font-size: 80px;
+    color: #4a211b;
+    padding-top: 10px;
+}
+
+body{
+    height: 100vh;
+    background: url(../Images/Wallpaper/hpbkgnd.jpeg);
+    background-size: cover;/*2560px 1225px;*//*2050px 1080px*/
+    background-position: center;
+    /*overflow: hidden;*/
+    text-align: center;
+}   
+
+html{
+    height: 100vh;
+}
+
+.button{
+    /*margin-right: 20px;*/
+    font-family: Harry;
+    font-size: 50px;
+    color: #a6332e;
+    border-radius: 6px;
+}
