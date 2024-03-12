@@ -39,8 +39,8 @@ var mySound;
 var myMusic;
 
 function musica(){
-    mySound = new sound("../sounds/Harry Potter Ambient Music Hogwarts Relaxing Studying Sleeping.mp3");
-    myMusic = new sound("../sounds/Harry Potter Ambient Music Hogwarts Relaxing Studying Sleeping.mp3");
+    mySound = new sound("../sounds/music.mp3");
+    myMusic = new sound("../sounds/music.mp3");
     myMusic.play();
 }
 
