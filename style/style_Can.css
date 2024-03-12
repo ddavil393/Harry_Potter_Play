@@ -76,14 +76,6 @@ body{
     display:  none;
    }
   
-   #title,#jugarbtn,#creditosbtn,#nombrelab,#con,#volverbtn{
-    height:150px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 3em;
-    color: #2aaa07;
-  
-   }
   
    #nombrelab{
     font-size: 2em;
@@ -226,3 +218,11 @@ nav{
     color: rgb(80, 84, 83);
     margin: 0 20px;
 }
+
+#siglvl{
+    text-align: center;
+    color: #555555;
+    font-size: 3em;
+   }
+
+

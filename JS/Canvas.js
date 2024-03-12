@@ -178,8 +178,9 @@ function dropthebase(e){
     	pantalla=2;
 	      
 		for(i=0;i<3;i++){
+          nom.classList.remove("nombre_visible");
       		var nom = document.getElementById("n"+usedindx[i]);
-      		nom.classList.remove("nombre_visible");
+      		
       	}
 		var next= document.getElementById("siglvl");
 		next.classList.remove("hidden");
