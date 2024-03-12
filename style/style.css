@@ -4,28 +4,23 @@ body{
     background-size: 2560px 1225px;/*2560px 1225px;*//*2050px 1080px*/
     background-repeat: no-repeat;
 }   
-
 html{
     height: 100vh;
 }
-
 @font-face {
     font-family: Harry;
     src: url(../Font_Harry/HARRYP__.TTF);
 }
-
 h1{
     font-family: Harry;
     font-size: 145px;
     color: #4a211b;
 }
-
 .text-aling-center{
     line-height: 80px; /*Espacio entre los elementos de cada renglon*/
     text-align: center;
     /*vertical-align: baseline;*/
 }
-
 .button{
     /*margin-right: 20px;*/
     font-family: Harry;
@@ -33,7 +28,6 @@ h1{
     color: #a6332e;
     border-radius: 6px;
 }
-
 #start{
     padding: 10%;
     padding-bottom: 0%;
@@ -42,12 +36,10 @@ h1{
     background-color: white;
     border: 2px;
 }
-
 #start:hover{
     background-color: #4a211b;
     color: white;
 }
-
 #inst{
     /*padding: 5%;
     padding-left: 10%;
@@ -62,7 +54,6 @@ h1{
     background-color: #4a211b;
     color: white;
 }
-
 #audio{
     height: 10vh;
     width: 10vh;
@@ -71,13 +62,11 @@ h1{
     background-color: #4a211b;
     color: white;
 }
-
 #audio:hover{
     border-color: #a6332e;
     background-color: white;
     color: #a6332e;
 }
-
 #credits{
     /*padding-top: 3%;
     padding-right: 10%;
@@ -92,7 +81,6 @@ h1{
     background-color: #4a211b;
     color: white;
 }
-
 #divall{
     height: 100vh;
     display: flex;
@@ -101,12 +89,10 @@ h1{
     align-items: center;
     text-align: center;
 }
-
 .text-aling-center2{
     text-align: right;
     vertical-align: baseline;
 }
-
 #letra{
     text-shadow: 15px 10px 25px #a6332e;
     padding-bottom: 8vh;
