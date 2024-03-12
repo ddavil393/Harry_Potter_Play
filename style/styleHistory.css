@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: Harry;
+    src: url(../Font_Harry/HARRYP__.TTF);
+}
+html{
+    height: 100vh;
+}
+#letra{
+    text-shadow: 15px 10px 25px #ffffff;
+}
+#logo{
+    width: 17vh;
+    height: 17vh;
+}
+#out{
+    border-color: #a6332e;
+    font-size: 45px;
+    background-color: white;
+    border: 2px;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+#out:hover{
+    background-color: #4a211b;
+    color: white;
+}
+.out{
+    text-align: right;
+}
+nav{
+    background: linear-gradient(135deg,  rgb(243,226,199) 0%,rgb(193,158,103) 15%,rgb(96,66,25) 36%,rgb(233,212,179) 100%); 
+}
+.button{
+    margin-right: 20px;
+    font-family: Harry;
+    font-size: 20px;
+    color: #a6332e;
+    border-radius: 6px;
+    animation: button 2s ease 0s 1 normal forwards;
+}
+body{
+    height: 100vh;
+    background-color: #4a211b;
+}
+h1{
+    font-family: Harry;
+    font-size: 100px;
+    color: rgb(80, 84, 83);
+}
+.divall{
+    background-color: #EADFB4;
+    border-radius: 20px;
+    margin: 10px;
+    width: 2024px;
+    height: 750px;
+    padding: 35px;
+}
+#text2{
+    font-family: Harry;
+    color: #a6332e;
+    font-size: 50px;
+}

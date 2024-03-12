@@ -39,8 +39,8 @@ var mySound;
 var myMusic;
 
 function musica(){
-    mySound = new sound("../sounds/Harry Potter Ambient Music Hogwarts Relaxing Studying Sleeping.mp3");
-    myMusic = new sound("../sounds/Harry Potter Ambient Music Hogwarts Relaxing Studying Sleeping.mp3");
+    mySound = new sound("../sounds/music.mp3");
+    myMusic = new sound("../sounds/music.mp3");
     myMusic.play();
 }
 
@@ -178,8 +178,9 @@ function dropthebase(e){
     	pantalla=2;
 	      
 		for(i=0;i<3;i++){
+          nom.classList.remove("nombre_visible");
       		var nom = document.getElementById("n"+usedindx[i]);
-      		nom.classList.remove("nombre_visible");
+      		
       	}
 		var next= document.getElementById("siglvl");
 		next.classList.remove("hidden");
@@ -228,31 +229,31 @@ function dragend(e){
 function getNombre(id){
   switch(id){
     case "0" :
-      return "Hrry";
+      return "Harry";
     break
       case "1" :
-      return "Lobo";
+      return "Ron";
     break
       case "2" :
-      return "Cabra";
+      return "Trio de oro";
     break
       case "3" :
-      return "Llama";
+      return "Hermione";
     break
       case "4" :
-      return "Panda";
+      return "Dobby";
     break
       case "5" :
-      return "Perico";
+      return "Voldemort";
     break
       case "6" :
-      return "Cerdito";
+      return "Luna";
     break
       case "7" :
-      return "Conejo";
+      return "Sirius Black";
     break
       case "8" :
-      return "Araña";
+      return "Hadrig";
     break
     default: "";
 

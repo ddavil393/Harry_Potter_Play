@@ -1,38 +1,196 @@
-.nombre{
-    text-align: center;
-    color: rgba(117, 12, 12, 0);
-}
-.nombre_visible{
-  color: rgb(29, 82, 7);
+html{
+    height: 100vh;
 }
 
-#out:hover{
+body{
+    height: 100vh;
+    background-color: #4a211b;
+}
+.bioma{
+  padding: 10px;
+  height:200px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 25px;
+}
+.nombre{
+    text-align: center;
+    color: rgba(117, 12, 12, 0);  
+}
+.nombre_visible{
+    color: rgb(29, 82, 7);
+}
+  
+.animal{
+  height:150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}  
+.over{
+  border: solid #A9FF9E 3px;
+}
+* {
+    box-sizing: border-box;
+}
+.img{
+    background-position: center;
+}
+.gamecontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+    [class*="col-"] {
+      float: left;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  
+   .hidden{
+    display:  none;
+   }
+  
+   #nombrelab{
+    font-size: 2em;
+   }
+  
+   #creditcontainer{
+    height: auto;
+   }
+  
+   #siglvl{
+    text-align: center;
+    color: #555555;
+    font-size: 3em;
+   }
+  
+   .eliminar{
+    margin: 3%;
+    margin-right: 0;
+    float: right;
+    background-image: url('images/apagar.jpg');
+    width: 60px; 
+    height: 40px;
+    background-size: 100% 100%;
+  }
+  .activar{
+    margin: 3%;
+    margin-left: 5px;
+    float: right;
+    background-image: url('images/activar.png');
+    width: 60px; 
+    height: 40px;
+    background-size: 100% 100%;
+  }
+  
+  #imagen{
+    width: 450px;
+    margin-left: 30%;
+  }
+  #imagen1{
+    margin-left: 30%;
+  }
+  .prueba{
+    margin: 0;
+  }
+
+  @font-face {
+    font-family: Harry;
+    src: url(../Font_Harry/HARRYP__.TTF);
+}
+#letra{
+    text-shadow: 15px 10px 25px #ffffff;
+}
+#logo{
+    width: 17vh;
+    height: 17vh;
+}
+
+h1{
+    font-family: Harry;
+    font-size: 100px;
+    color: rgb(80, 84, 83);
+}
+
+nav{
+    background: linear-gradient(135deg,  rgb(243,226,199) 0%,rgb(193,158,103) 15%,rgb(96,66,25) 36%,rgb(233,212,179) 100%); 
+}
+
+.button{
+    margin-right: 20px;
+    font-family: Harry;
+    font-size: 20px;
+    color: #a6332e;
+    border-radius: 6px;
+    animation: button 2s ease 0s 1 normal forwards;
+}
+
+#Name{
+    height: 60px;
+    width: 275px;
+    font-family: Harry;
+    font-size: 50px;
+    color: chocolate;
+    text-align: center;
+    border-radius:20px;
+    border-color: #604219;
+    border: 100px;
+}
+
+#send{
+    border-color: #a6332e;
+    font-size: 50px;
+    background-color: white;
+}
+
+#send:hover{
     background-color: #4a211b;
     color: white;
 }
+
 #out{
     border-color: #a6332e;
     font-size: 45px;
     background-color: white;
     border: 2px;
     text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+#out:hover{
+    background-color: #4a211b;
+    color: white;
 }
 .out{
     text-align: right;
 }
-.gamecontainer{
-    height: 100vh;
-    background-image: url("../Images/Carga_de_Pantalla/Comedor.gif");
-    background-size: 100% 100%;
-    border-radius: 25px;
-    margin-left: 12px;
-}
+
 #time{
-    padding-left: 2vh;
+    padding: 10px;
     filter: blur(1px);
     background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-radius: 20px;
 }
+
 #time2{
     color: white;
     font-size: 65px;
@@ -41,61 +199,19 @@
     padding-right: 15px;
     color: rgb(80, 84, 83);
 }
-#score{
+
+#score, #usernameDisplay{
     color: white;
     font-size: 65px;
     font-family: Harry;
     color: rgb(80, 84, 83);
+    margin: 0 20px;
 }
+
 #siglvl{
     text-align: center;
     color: #555555;
-    font-size: 110px;
-    font-family: Harry;
-    text-shadow: 15px 10px 25px #ffffff;
-}
-.hidden{
-    display: none;
-}
+    font-size: 3em;
+   }
 
-.animal{
-    height:150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
-.over{
-    border: solid #A9FF9E 3px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.img{
-  background-position: center;
-}
-
-.hidden{
-    display: none;
-}
-
-.bioma{
-    margin: 15px;
-    height:240px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 25px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.nombre{
-    text-align: center;
-    color: rgba(117, 12, 12, 0);
-}
