@@ -49,6 +49,8 @@ h1{
     border-color: #a6332e;
     background-color: white;
     /*border: 2px;*/
+    width: 30vh;
+    height: 10vh;
 }
 #inst:hover{
     background-color: #4a211b;
@@ -76,6 +78,8 @@ h1{
     border-color: #a6332e;
     background-color: white;
     /*border: 2px;*/
+    width: 20vh;
+    height: 10vh;
 }
 #credits:hover{
     background-color: #4a211b;
