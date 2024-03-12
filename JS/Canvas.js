@@ -1,3 +1,7 @@
+function PlayAudio(){
+  document.getElementById("Music").play();
+}
+
 var cronometro;
 
 function detenerse(){	
@@ -35,12 +39,13 @@ function init(){
  addlisteners();
 }
 
+
 var mySound;
 var myMusic;
 
 function musica(){
-    mySound = new sound("../sounds/music.mp3");
-    myMusic = new sound("../sounds/music.mp3");
+    mySound = new sound("./sounds/music.mp3");
+    myMusic = new sound("./sounds/music.mp3");
     myMusic.play();
 }
 

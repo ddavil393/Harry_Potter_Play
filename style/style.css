@@ -124,3 +124,22 @@ h1{
     background-color: #4a211b;
     color: white;
 }
+.activar{
+    margin: 3%;
+    margin-left: 5px;
+    float: right;
+    background-image: url('images/activar.png');
+    width: 60px; 
+    height: 40px;
+    background-size: 100% 100%;
+  }
+
+  .eliminar{
+    margin: 3%;
+    margin-right: 0;
+    float: right;
+    background-image: url('images/apagar.jpg');
+    width: 60px; 
+    height: 40px;
+    background-size: 100% 100%;
+  }

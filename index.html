@@ -7,43 +7,51 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="Images/Casas/Logo4.png" type="image/png">
     <title>El mundo de Harry Potter</title>
-</head>
 
+</head>
 <body onclick="PlayAudio()">
     
     <img id="logo" class="rounded-circle p-2" src="Images/Casas/Logo.jpeg" alt="">
     
-    <!--<button class="rounded-circle text-aling-center" onclick='musica()' id="audio">
+    <button class="rounded-circle text-aling-center eliminar" onclick='musicano()' id="audio">
         <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="currentColor" class="bi bi-pause" viewBox="0 0 16 16">
             <path d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5m4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5"/>
           </svg>
-    </button>-->
+    </button>
+    <button class="rounded-circle text-aling-center activar" onclick='musica()' id="audio">
+        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+          </svg>
+    </button>
+    
 
-    <audio id="Music" loop autoplay> 
-        <source src="Audio/Harry Potter Ambient Music Hogwarts Relaxing Studying Sleeping.mp3" type="audio/mp3">
-    </audio>
+    <!--<audio id="Music" loop autoplay> 
+        <source src="./sounds/music.mp3" type="audio/mp3">
+    </audio>-->
 
     <div id="divall">
         <h1 id="letra" class="text-aling-center">El Mundo de Harry Potter</h1>
-        <div class="text-aling-center" >
+        <div class="text-aling-center col-2" >
             <a href="HTML/User.html" class="button" id="start" >Start</a>
         </div>
 
-        <div class="text-aling-center align-items-center">
-            <a href="HTML/instructions.html"><button class="button col-8" id="inst"> Instrucciones </button></a>
+        <div class="text-aling-center lign-items-center">
+            <a href="HTML/instructions.html"><button class="button col-8" id="inst">Instrucciones</button></a>
+            <a href="HTML/Credits.html"><button class="button col-8" id="credits">Creditos</button></a>
             
         </div>
-        <div>
+        <!-- <div>
             <a href="HTML/Credits.html"><button class="button col-5" id="credits">Creditos </button></a>
         </div>
         
         <div>
             <a href="./HTML/HistoryJug.html" class="button" id="history">Historial Jugadores</a>
-        </div>
+        </div> -->
         
     </div>
 
-    <script src="JS/P_index.js" ></script>
+    <script src="JS/Canvas.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
