@@ -45,46 +45,33 @@ function guardar(){
               El Mundo de Harry Potter
         </h1>
     </nav>
-
+	<canvas id="confetti"></canvas>
+	<canvas id="confetti"></canvas>
 	<div class="col-12 center gamecontainer">
 	<div class="row">
     	<div class="container">
-    		<div class="col-12 center img">
-    			<img class="center col-12"src="../Images/Felicidades.png"></img>
-    		</div>
+
     		<div class="col-12 center" style="margin-top: 0;">
+				<h1 class="congra">!!!Felicidades!!!</h1>
     			<h1 class="center col-12" id="con"></h1>
 				<h1 class="center" id="pun">Puntuacion: </h1>	
 				<h1 class="center" id="tie">Tiempo: </h1>	
     		</div>
-    		<div class="magic col-12">
-    			<img class="center col-12"src="../Images/MagicWU.png">
-    		</div>
+
+			<div class="col-12 center" style="margin-top: 0;">
+    			<img src="../Images/MagicWU.png">
+			</div>
+
     		<div class="col-12 center">
     			<a href="Canvas.html" class="button col-10" id="back">Volver a jugar</a>
 				<a href="index.html" class="button" id="out">Salir</a>
 				<!--<button class="btn btn-outline-primary" onclick='mostrar()'>Ver puntaje de los jugadores</button>-->
     		</div>
+
     	</div>
-		<div class="container mt-3">
-			<table id="listado" style="color: rgb(35, 128, 16);" class="table table-striped"></table>
-		</div>
     </div>
 	</div>
-	<script>
-		function mostrar(){ 
-		var tabla="<tr><th>Usuario</th><th>Puntaje</th><th>Tiempo</th></tr>";
-		for(var i in datosjuego){
-			var jugador = JSON.parse(datosjuego[i]);
-			tabla += "<tr><td>"+jugador.nombre+"</td>";
-			tabla += "<td>"+jugador.puntos+"</td>";
-			tabla +="<td>"+jugador.tiempo +"</td>";
-			tabla += "</tr>";
-		}
-		document.getElementById("listado").innerHTML=tabla;
-}
-	</script>
-
+	<script src="../JS/congra.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
